@@ -1,0 +1,81 @@
+body {
+    font-family: Montserrat;
+    background: rgb(22,33,62);
+    background: linear-gradient(180deg, rgba(22,33,62,1) 0%, rgba(83,52,131,1) 56%, rgba(233,69,96,1) 100%);
+    background-attachment: fixed;
+    margin: 14.5% 10% 14.5% 10%;
+    padding: 0;
+}
+
+/*Background*/
+.clouds {
+    
+}
+
+.cloud1 {
+    position: absolute;
+    z-index: 1;
+    max-width: 200px;
+    right: 100px;
+    
+}
+
+
+
+/*About Me*/
+.about-me {
+    background-color: #16213E;
+    border-radius: 15px;
+    padding: 5%;
+    color: #E94560;
+}
+
+.title {
+    font-family: Montserrat-Black;
+    font-size: 4rem;
+}
+
+/*Download*/
+.downloads {
+    border-radius: 15px;
+    text-align: center;
+    padding: 10%;
+    font-family: Montserrat-Medium;
+}
+
+.download-text {
+    color: white;
+}
+
+.btn {
+    margin: 15px;
+}
+
+btn-dark {
+    border-width: 0;
+}
+
+.dl-color {
+    background-color: #E94560;
+    color: white;
+    border-color: #E94560;
+}
+
+.btn-dark:hover {
+    background-color: white  !important;
+    
+}
+
+.btn-outline-light {
+    border-color: white;
+    color: white;
+}
+
+.dl-icon {
+    padding-right: 20px;
+}
+
+a, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: inherit;
+}
